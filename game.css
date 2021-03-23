@@ -1,0 +1,48 @@
+body{
+    font-family: 'Quicksand', sans-serif;
+    background-color:khaki;
+}
+
+fieldset{
+    font-size: 20px;
+    color:slategrey;
+
+}
+
+legend{
+    font-size: 40px;
+    color:slategrey;
+}
+#game-container {
+	margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#game-layer {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    border-radius: 5%;
+    background-color:lemonchiffon;
+    /* border: 3px solid black; */
+}
+
+.square {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    /* border: 1px solid whitesmoke; */
+    border-radius: 15%;
+}
+
+.darksalmon{
+    background-color:darksalmon;
+}
+.lightseagreen{
+    background-color:skyblue;
+}
+
+.cadetblue{
+    background-color:lightseagreen;
+}
